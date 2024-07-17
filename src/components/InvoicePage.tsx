@@ -114,7 +114,7 @@ const InvoicePage: FC<Props> = ({ data, pdfMode }) => {
     <Document pdfMode={pdfMode}>
       <Page className="invoice-wrapper" pdfMode={pdfMode}>
         {!pdfMode && <Download data={invoice} />}
-
+<div>This is a forked version!</div>
         <View className="flex" pdfMode={pdfMode}>
           <View className="w-50" pdfMode={pdfMode}>
             <EditableInput
